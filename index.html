@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mendaki Gunung</title>
+    <link rel="web icon" href="/images/coffee.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="parallax">
+    <nav class="navbar">
+      <h1 class="logo" data-aos="fade-down" data-aos-duration="3000">
+        Beauty Of Nature
+      </h1>
+
+      <ul class="nav-links hidden">
+        <li><a href="">Home</a></li>
+        <li><a href="">Visit</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+
+      <i class="ph-bold ph-list menu-btn"></i>
+    </nav>
+    <header>
+      <div data-aos="fade-down" data-aos-duration="3000" class="header-content">
+        <h2>There Are Some Natural Beauties</h2>
+        <!-- <div class="line"></div> -->
+        <h1>Beautiful Natures</h1>
+        <a class="button">learn more</a>
+      </div>
+    </header>
+    <!-- Tools section -->
+    <section data-aos="fade-down" data-aos-duration="3000" class="tours">
+      <div class="title">
+        <h1>Chasing The Sunset</h1>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="images/jalan.jpg" />
+          <h4>Mountain Climbing</h4>
+          <p>
+            "Kita mendaki gunung agar kita bisa melihat dunia ini terbentang
+            luas. Bukan sebaliknya, agar dunia melihat kita."
+          </p>
+          <a class="btn-about">Travel</a>
+        </div>
+        <div class="column">
+          <img src="images/senja.jpg" />
+          <h4>Enjoying the Sunset</h4>
+          <p>
+            "Matahari terbenam merupakan kesempatan bagi kita untuk menghargai
+            semua hal luar biasa yang diberikan matahari kepada kita"
+          </p>
+          <a class="btn-about">Sunset</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- explore section -->
+
+    <section data-aos="fade-up" data-aos-duration="3000" class="explore">
+      <div class="explore-content">
+        <h1>A Complete Guide To Mountain Climbing</h1>
+        <div class="line"></div>
+        <p>
+          If you're looking to overcome your work burnout with a breath of fresh
+          air, you might want to take up mountain climbing during your holidays.
+          However, if you're a beginner, there are some mountain climbing tips
+          that you need to keep in mind.One of the most important mountain
+          climbing tips for beginners is to prepare yourself mentally and
+          physically. You need to make sure your body, Both physically and
+          mentally, Is ready and healthy if you want to climb a mountain
+          outdoors.
+        </p>
+        <a class="btn-about">Explore it !</a>
+      </div>
+    </section>
+
+    <!-- footers -->
+    <footer>
+      <p>Designed By Maulana.</p>
+      <p>Copyright &copy; 2023 Tours</p>
+    </footer>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", function () {
+        navLinks.classList.toggle("hidden");
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
